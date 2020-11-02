@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class = "row">
+        <div class="col-12">
+            <div class="fixed-top">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4">
+
+                        <!-- Link to other website locations -->
+                        <a class="text-white h4" href="portfolio.html">Portfolio</a>
+                        <br>
+                        <a class="text-white h4" href="index.html">About Me</a>
+                    </div>
+                </div>
+
+                <nav class="navbar navbar-light">
+                    <h1>Gavin O'Brien</h1>
+                        
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="true" aria-label="Toggle navigation" style="float: right">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Body content -->
+    <div class="row">
+        
+        <!-- Background column -->
+        <div class="col-12" id = "background">
+  
+            <div class="container">
+                
+                <div class="row">
+
+                    <!-- Content column -->
+                    <div class="col-lg-9">
+
+                        <div class="jumbotron" id = "jumbotron">
+                            <h1 class="display-4" id = "aboutMe">Contact</h1>
+                            <hr class="my-4">
+
+                            <form>
+                                <div class="form-group">
+                                    <label for="nameInput">Name</label>
+                                    <input type="text" class="form-control" id="nameInput">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="emailInput">Email</label>
+                                    <input type="email" class="form-control" id="emailInput">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="messageInput">Message</label>
+                                    <input type="text" class="form-control" id="messageInput">
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+           <p id="footerText">@Copyright 2020 Gavin O'Brien</p>
+        </div>
+    </footer>
+
+    <!-- Necessary JavaScript for Bootstrap to function! -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
